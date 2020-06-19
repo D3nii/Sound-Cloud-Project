@@ -26,10 +26,10 @@ This project uses the [`Project.Js`](https://github.com/VincentGarreau/particles
 # Examples
 
 - The log in Screen
-[](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/logIn.png)
+![](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/logIn.png)
 
 - The Home Screen
-[](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/homeScreen.png)
+![](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/homeScreen.png)
 
 - Search Results
-[](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/searchResults.png)
+![](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/searchResults.png)
