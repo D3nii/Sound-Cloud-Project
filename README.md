@@ -22,3 +22,14 @@ This project uses the [`Project.Js`](https://github.com/VincentGarreau/particles
 3. The main files that are used to obtain the pattern are:
 	- `/particles.js`
 	- `/demo/js/app.js`
+
+# Examples
+
+- The log in Screen
+[](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/logIn.png)
+
+- The Home Screen
+[](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/homeScreen.png)
+
+- Search Results
+[](https://github.com/D3nii/Sound-Cloud-Project/blob/master/Images/searchResults.png)
