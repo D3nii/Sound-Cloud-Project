@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./styles/log_style.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+	<title>Login</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-light">
+      <a class="navbar-brand" href="#">
+        <h1 id="logo">Sound Clone</h1>
+      </a>
+    </nav>
+
+	<span id="particles-js">
+    </span>
+
+	<div id="login" class="container">
+
+		<form method="POST" action="./index.html" name="form" onsubmit="return validated()">
+
+			<h1>LOG IN</h1>
+
+			<br>
+			
+			<label for="email" id="email"><b>Email</b></label>
+			<input autocomplete="off" type="text" placeholder="Enter Email.." name="email" required>
+
+			<br>
+
+			<div id="email_error">Please fill up your Email</div>
+
+			<br>
+
+			<label for="psw"><b>Password</b></label>
+			    <input type="password" placeholder="Enter Password.." name="psw" required>
+
+			<br>
+
+			<div id="psw_error">Please fill up your Password</div>
+
+			<br> <br>
+
+			<label>
+			  <input type="checkbox" checked="checked" name="remember">  Remember me!
+			</label>
+
+			<br>
+
+			<button id="loginb" class="button" type="submit">Login</button>
+		</form>
+	   
+	</div>
+
+	<style type="text/css" src="./javascript/log_in.js"></style>
+	<script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+    <script src='javascript/semantic.min.js'></script>
+    <script src="javascript/main.js"></script>
+	<script src="Particle/particles.js"></script>
+    <script src="Particle/app.js"></script>
+</body>
+</body>
+</html>

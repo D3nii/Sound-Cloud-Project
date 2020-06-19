@@ -1,0 +1,170 @@
+/* CURRENTLY IN: styles/main.css */
+html, body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	overflow: scroll;
+    overflow-x: hidden;
+    background: url('./bg.jpeg');
+    background-attachment: fixed; 
+  	background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent; 
+}
+
+#soundcloud-player .col {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.js-search.input-search {
+    font-size: 18px;
+}
+
+#soundcloud-player .col-left {
+	width: 20%;
+	height: 80%;
+	overflow-y: scroll;
+	margin-top: 6%;
+
+	position: fixed;
+	right: 0;
+	top: 0;
+
+	min-width: 200px;
+
+	border: 2px solid gray;
+	border-radius: 20px;
+	margin: 4% 4%;
+}
+
+#soundcloud-player .col-right {
+	width: 60%;
+	height: 80%;
+	overflow: auto;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-top: 6%;
+	margin-left: 5%;
+
+	box-sizing: border-box;
+	-ms-overflow: none;
+
+	background: transparent;
+
+	border: 2px solid gray;
+	border-radius: 80px;
+}
+
+#soundcloud-player .main {
+	box-sizing: border-box;
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.js-search.input-search {
+    border-radius: 15px!important;
+    height: 50px;
+}
+
+#soundcloud-player .input {
+	width: 100%;
+	width: 400px;
+	margin: 0 200px;
+	border-radius: 15px;
+	opacity: 0.4;
+}
+
+#soundcloud-player .input-search {
+	width: 100%;
+	display: block;
+}
+
+#soundcloud-player .search.icon {
+	pointer-events: initial;
+	cursor: pointer;
+}
+
+#soundcloud-player .search-results {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.col-right::-webkit-scrollbar {
+  display: none;
+}
+
+#logo {
+	font-family: 'Righteous', cursive;
+	color: white;
+	padding-left: 600px;
+}
+
+#logIn {
+	border: 2px solid #4CAF50;
+	border-radius: 10%;
+	background-color: transparent;
+	color: white;
+}
+
+#logIn:hover {
+	border: none;
+  	font-size: 130%;
+}
+
+#nothing {
+	text-decoration: none;
+	color: lightgreen;
+}
+
+nav {
+	height: 7%;
+	background-color: transparent;
+	border-bottom: 2px solid gray;
+	z-index: 1;
+}
+
+#footer {
+	background-color: transparent;
+	border-top: 2px solid gray;
+	bottom: 0;
+	position: fixed;
+	color: white;
+
+	width: 100%;
+	text-align: center;
+	height: 7%;
+
+	font-family: 'Righteous', cursive;
+	color: white;
+}
+
+a {
+	color: black;
+}
+
+#left {
+	text-align: center;
+	position: fixed;
+	margin-left: -550px;
+	bottom: 18px;
+}
+
+#right {
+	text-align: center;
+	position: fixed;
+	margin-left: 500px;
+	bottom: 8px;
+}
+
+ion-icon {
+  font-size: 25px;
+}
