@@ -148,3 +148,20 @@ span.psw {
   }
 }
 
+
+@media only screen and (max-width: 1200px) {
+  #logo {
+    padding-left: 400px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #logo {
+    padding-left: 900px;
+  }
+
+  form {
+    width: 60%;
+  }
+}
+
