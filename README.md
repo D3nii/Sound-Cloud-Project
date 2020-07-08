@@ -9,7 +9,7 @@ This Project uses the [`Sound Cloud`](https://soundcloud.com/) API to:
 # Features
 
 The main features of this project are:
-- Can update the User's Account's Plyalists.
+- Can update the User's Account's Playlists.
 - Plays the song right away.
 - Shows the Album Covers of the search results.
 - Shows the comments on the song selected.
