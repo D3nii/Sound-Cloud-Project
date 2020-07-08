@@ -83,7 +83,7 @@ SoundCloudAPI.renderTrack = function( tracks, searchResult ) {
             icon.classList.add('add', 'icon');
 
             var buttonText = document.createElement('span');
-            buttonText.innerHTML = 'Add to playlist';
+            buttonText.innerHTML = 'Play Song';
 
             button.appendChild( icon );
             button.appendChild( buttonText );
