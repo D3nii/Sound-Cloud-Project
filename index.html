@@ -1,70 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;" />
     <title>SoundCloud Player</title>
-    <link rel='stylesheet' href='styles/semantic.min.css'>
-    <link rel='stylesheet' href='styles/main.css'>
+    <link rel="stylesheet" href="styles/semantic.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-</head>
-<body id="soundcloud-player">
-    
+  </head>
+  <body id="soundcloud-player">
     <nav class="navbar navbar-light">
       <a class="navbar-brand" href="#">
         <h1 id="logo">Sound Clone</h1>
       </a>
 
-      <button id="logIn" type="button"><a id='nothing' href="./log_in.html">Log In</a></button>
+      <button id="logIn" type="button">
+        <a id="nothing" href="./log_in.html">Log In</a>
+      </button>
     </nav>
-    
-    <span id="particles-js">
-    </span>
+
+    <span id="particles-js"> </span>
 
     <div class="ui container col">
-        <div class="col-left js-playlist" style="margin-top: 6%;">
-            <div class="inner"></div>
-        </div>
+      <div class="col-left js-playlist" style="margin-top: 6%">
+        <div class="inner"></div>
+      </div>
 
-        <div class="col-right">
-            <div class="main">
-                <div class="ui massive icon input">
-                    <input type="text" placeholder="Search for a song or artist..." class="js-search input-search">
-                    <i class="search icon js-submit"></i>
-                </div>
+      <div class="col-right">
+        <div class="main">
+          <div class="ui massive icon input">
+            <input
+              type="text"
+              placeholder="Search for a song or artist..."
+              class="js-search input-search"
+            />
+            <i class="search icon js-submit"></i>
+          </div>
 
-                <div class="search-results js-search-results ui cards">  
-                </div>
-            </div>
+          <div class="search-results js-search-results ui cards"></div>
         </div>
+      </div>
     </div>
 
     <div id="footer">
+      <span id="left"> M Danyal Jamil </span>
 
-        <span id="left">
-            M Danyal Jamil
-        </span>
-
-        <span id="right">
-            <div>
-                <a href="https://github.com/D3nii"><ion-icon size="medium" style="color: black;" name="logo-github"></ion-icon></a>
-                <a href="https://www.linkedin.com/in/d3ni/"><ion-icon size="medium" style="color: black;" name="logo-linkedin"></ion-icon></a>
-                <a href="https://www.facebook.com/d3nyal"><ion-icon size="medium" style="color: black;" name="logo-facebook"></ion-icon></a>
-            </div>
-        </span>
+      <span id="right">
+        <div>
+          <a href="https://github.com/D3nii"
+            ><ion-icon
+              size="medium"
+              style="color: black"
+              name="logo-github"
+            ></ion-icon
+          ></a>
+          <a href="https://www.linkedin.com/in/d3ni/"
+            ><ion-icon
+              size="medium"
+              style="color: black"
+              name="logo-linkedin"
+            ></ion-icon
+          ></a>
+          <a href="https://www.facebook.com/d3nyal"
+            ><ion-icon
+              size="medium"
+              style="color: black"
+              name="logo-facebook"
+            ></ion-icon
+          ></a>
+        </div>
+      </span>
     </div>
-        
+
     <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
-    <script src='javascript/semantic.min.js'></script>
+    <script src="javascript/semantic.min.js"></script>
     <script src="javascript/main.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="Particle/particles.js"></script>
     <script src="Particle/app.js"></script>
-</body>
+  </body>
 </html>
