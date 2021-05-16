@@ -90,6 +90,10 @@ h1 {
   opacity: 0.4;
 }
 
+#soundcloud-player .input :focus {
+  opacity: 1;
+}
+
 #soundcloud-player .input-search {
   width: 100%;
   display: block;
